@@ -7,13 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3853424E1EA80F4F005E08CA /* BaseLayerHot.png in Resources */ = {isa = PBXBuildFile; fileRef = 3853424D1EA80F4F005E08CA /* BaseLayerHot.png */; };
+		385342501EA817CD005E08CA /* BaseLayerBlank.png in Resources */ = {isa = PBXBuildFile; fileRef = 3853424F1EA817CD005E08CA /* BaseLayerBlank.png */; };
+		385342551EA92F29005E08CA /* funPatter.png in Resources */ = {isa = PBXBuildFile; fileRef = 385342541EA92F29005E08CA /* funPatter.png */; };
+		385342571EA9301E005E08CA /* cold_titanium_grill_by_monkeymagico-d2yjgir.png in Resources */ = {isa = PBXBuildFile; fileRef = 385342561EA9301E005E08CA /* cold_titanium_grill_by_monkeymagico-d2yjgir.png */; };
 		386057BB1E97F54200B14CA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386057BA1E97F54200B14CA8 /* AppDelegate.swift */; };
-		386057BD1E97F54200B14CA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386057BC1E97F54200B14CA8 /* ViewController.swift */; };
 		386057C01E97F54200B14CA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386057BE1E97F54200B14CA8 /* Main.storyboard */; };
 		386057C21E97F54200B14CA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 386057C11E97F54200B14CA8 /* Assets.xcassets */; };
 		386057C51E97F54200B14CA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 386057C31E97F54200B14CA8 /* LaunchScreen.storyboard */; };
 		386057D01E97F54200B14CA8 /* BLUHomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386057CF1E97F54200B14CA8 /* BLUHomeTests.swift */; };
 		386057DB1E97F54200B14CA8 /* BLUHomeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386057DA1E97F54200B14CA8 /* BLUHomeUITests.swift */; };
+		386057E91E97FA4C00B14CA8 /* Thermostat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386057E81E97FA4C00B14CA8 /* Thermostat.swift */; };
+		386057EB1E98030B00B14CA8 /* ThermostatMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386057EA1E98030B00B14CA8 /* ThermostatMainViewController.swift */; };
+		386057F01E98038600B14CA8 /* ThermostatSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386057EF1E98038600B14CA8 /* ThermostatSettings.swift */; };
+		386057F21E98045100B14CA8 /* AvailableThermostatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386057F11E98045100B14CA8 /* AvailableThermostatsViewController.swift */; };
+		386057F61E9BC95800B14CA8 /* BaseLayer.png in Resources */ = {isa = PBXBuildFile; fileRef = 386057F51E9BC95800B14CA8 /* BaseLayer.png */; };
+		386057F81E9BCCF500B14CA8 /* TestTemperatureValue.png in Resources */ = {isa = PBXBuildFile; fileRef = 386057F71E9BCCF500B14CA8 /* TestTemperatureValue.png */; };
+		386057FA1E9BCE6D00B14CA8 /* TestTemperatureValueLarge.png in Resources */ = {isa = PBXBuildFile; fileRef = 386057F91E9BCE6D00B14CA8 /* TestTemperatureValueLarge.png */; };
+		38C18F8C1E9D078100E60927 /* RotationAnimations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C18F8B1E9D078100E60927 /* RotationAnimations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +45,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3853424D1EA80F4F005E08CA /* BaseLayerHot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BaseLayerHot.png; sourceTree = SOURCE_ROOT; };
+		3853424F1EA817CD005E08CA /* BaseLayerBlank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BaseLayerBlank.png; sourceTree = SOURCE_ROOT; };
+		385342541EA92F29005E08CA /* funPatter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = funPatter.png; sourceTree = SOURCE_ROOT; };
+		385342561EA9301E005E08CA /* cold_titanium_grill_by_monkeymagico-d2yjgir.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cold_titanium_grill_by_monkeymagico-d2yjgir.png"; sourceTree = SOURCE_ROOT; };
 		386057B71E97F54200B14CA8 /* BLUHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLUHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		386057BA1E97F54200B14CA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		386057BC1E97F54200B14CA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		386057BF1E97F54200B14CA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		386057C11E97F54200B14CA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		386057C41E97F54200B14CA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +61,14 @@
 		386057D61E97F54200B14CA8 /* BLUHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BLUHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		386057DA1E97F54200B14CA8 /* BLUHomeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLUHomeUITests.swift; sourceTree = "<group>"; };
 		386057DC1E97F54200B14CA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		386057E81E97FA4C00B14CA8 /* Thermostat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Thermostat.swift; sourceTree = "<group>"; };
+		386057EA1E98030B00B14CA8 /* ThermostatMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThermostatMainViewController.swift; sourceTree = "<group>"; };
+		386057EF1E98038600B14CA8 /* ThermostatSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThermostatSettings.swift; sourceTree = "<group>"; };
+		386057F11E98045100B14CA8 /* AvailableThermostatsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvailableThermostatsViewController.swift; sourceTree = "<group>"; };
+		386057F51E9BC95800B14CA8 /* BaseLayer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BaseLayer.png; sourceTree = SOURCE_ROOT; };
+		386057F71E9BCCF500B14CA8 /* TestTemperatureValue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TestTemperatureValue.png; sourceTree = SOURCE_ROOT; };
+		386057F91E9BCE6D00B14CA8 /* TestTemperatureValueLarge.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TestTemperatureValueLarge.png; sourceTree = SOURCE_ROOT; };
+		38C18F8B1E9D078100E60927 /* RotationAnimations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotationAnimations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +119,11 @@
 		386057B91E97F54200B14CA8 /* BLUHome */ = {
 			isa = PBXGroup;
 			children = (
-				386057BA1E97F54200B14CA8 /* AppDelegate.swift */,
-				386057BC1E97F54200B14CA8 /* ViewController.swift */,
 				386057BE1E97F54200B14CA8 /* Main.storyboard */,
-				386057C11E97F54200B14CA8 /* Assets.xcassets */,
-				386057C31E97F54200B14CA8 /* LaunchScreen.storyboard */,
-				386057C61E97F54200B14CA8 /* Info.plist */,
+				386057EC1E98031200B14CA8 /* View Controllers */,
+				386057ED1E98031B00B14CA8 /* Classes */,
+				386057F41E9BC94100B14CA8 /* Images */,
+				386057EE1E98032900B14CA8 /* Misc */,
 			);
 			path = BLUHome;
 			sourceTree = "<group>";
@@ -123,6 +144,58 @@
 				386057DC1E97F54200B14CA8 /* Info.plist */,
 			);
 			path = BLUHomeUITests;
+			sourceTree = "<group>";
+		};
+		386057EC1E98031200B14CA8 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				386057EA1E98030B00B14CA8 /* ThermostatMainViewController.swift */,
+				386057F11E98045100B14CA8 /* AvailableThermostatsViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		386057ED1E98031B00B14CA8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				386057F31E98048300B14CA8 /* BLEBackBone */,
+				386057E81E97FA4C00B14CA8 /* Thermostat.swift */,
+				386057EF1E98038600B14CA8 /* ThermostatSettings.swift */,
+				38C18F8B1E9D078100E60927 /* RotationAnimations.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		386057EE1E98032900B14CA8 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				386057C61E97F54200B14CA8 /* Info.plist */,
+				386057BA1E97F54200B14CA8 /* AppDelegate.swift */,
+				386057C31E97F54200B14CA8 /* LaunchScreen.storyboard */,
+				386057C11E97F54200B14CA8 /* Assets.xcassets */,
+			);
+			name = Misc;
+			sourceTree = "<group>";
+		};
+		386057F31E98048300B14CA8 /* BLEBackBone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = BLEBackBone;
+			sourceTree = "<group>";
+		};
+		386057F41E9BC94100B14CA8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				385342561EA9301E005E08CA /* cold_titanium_grill_by_monkeymagico-d2yjgir.png */,
+				385342541EA92F29005E08CA /* funPatter.png */,
+				3853424F1EA817CD005E08CA /* BaseLayerBlank.png */,
+				3853424D1EA80F4F005E08CA /* BaseLayerHot.png */,
+				386057F91E9BCE6D00B14CA8 /* TestTemperatureValueLarge.png */,
+				386057F71E9BCCF500B14CA8 /* TestTemperatureValue.png */,
+				386057F51E9BC95800B14CA8 /* BaseLayer.png */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +308,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				386057F61E9BC95800B14CA8 /* BaseLayer.png in Resources */,
 				386057C51E97F54200B14CA8 /* LaunchScreen.storyboard in Resources */,
+				386057F81E9BCCF500B14CA8 /* TestTemperatureValue.png in Resources */,
 				386057C21E97F54200B14CA8 /* Assets.xcassets in Resources */,
+				386057FA1E9BCE6D00B14CA8 /* TestTemperatureValueLarge.png in Resources */,
+				385342571EA9301E005E08CA /* cold_titanium_grill_by_monkeymagico-d2yjgir.png in Resources */,
+				385342501EA817CD005E08CA /* BaseLayerBlank.png in Resources */,
+				385342551EA92F29005E08CA /* funPatter.png in Resources */,
 				386057C01E97F54200B14CA8 /* Main.storyboard in Resources */,
+				3853424E1EA80F4F005E08CA /* BaseLayerHot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +342,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				386057BD1E97F54200B14CA8 /* ViewController.swift in Sources */,
+				38C18F8C1E9D078100E60927 /* RotationAnimations.swift in Sources */,
+				386057EB1E98030B00B14CA8 /* ThermostatMainViewController.swift in Sources */,
+				386057E91E97FA4C00B14CA8 /* Thermostat.swift in Sources */,
 				386057BB1E97F54200B14CA8 /* AppDelegate.swift in Sources */,
+				386057F21E98045100B14CA8 /* AvailableThermostatsViewController.swift in Sources */,
+				386057F01E98038600B14CA8 /* ThermostatSettings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +598,7 @@
 				386057E11E97F54200B14CA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		386057E21E97F54200B14CA8 /* Build configuration list for PBXNativeTarget "BLUHomeTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +607,7 @@
 				386057E41E97F54200B14CA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		386057E51E97F54200B14CA8 /* Build configuration list for PBXNativeTarget "BLUHomeUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +616,7 @@
 				386057E71E97F54200B14CA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
